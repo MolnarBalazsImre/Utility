@@ -1,0 +1,33 @@
+.CalculatorContainer{
+    border-radius: 4px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    p{
+        margin: 8px;
+        background-color: #545454;
+        padding: 4px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    input{
+        font-size: larger;
+        text-align: right;
+        width: 375px;
+        height: 24px;
+        margin: 9px;
+        padding: 2px;
+    }
+    table{
+        padding: 8px;
+        
+    }
+    button{
+        width: 93px;
+        height: 70px;
+        font-size: larger;
+    }
+}
