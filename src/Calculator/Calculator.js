@@ -9,9 +9,6 @@ const summ = (nc)=>{
     var result = Function("return "+nc)()
     setNc(result)
 }
-function isNumeric(value) {
-    return /^-?\d+$/.test(value);
-}
 const setNewNumber = (string)=>{
     
        setNc(`${nc}${string}`)
